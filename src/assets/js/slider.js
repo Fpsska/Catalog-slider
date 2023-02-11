@@ -1,4 +1,4 @@
-import Swiper, { Navigation, Pagination } from 'swiper';
+import Swiper, { Navigation } from 'swiper';
 
 import '../libs/swiper.scss';
 
@@ -6,5 +6,22 @@ import '../libs/swiper.scss';
 
 const productsSlider = new Swiper('.products-slider', {
     slidesPerView: 4,
-    spaceBetween: 20
+    spaceBetween: 20,
+    breakpoints: {
+        320: {
+            slidesPerView: 1.1
+        },
+        475: {
+            slidesPerView: 1.6
+        },
+        768: {
+            slidesPerView: 2.4
+        },
+        1024: {
+            slidesPerView: 3.1
+        },
+        1366: {
+            slidesPerView: 4
+        }
+    }
 });

@@ -1,5 +1,6 @@
 @import 'swiper/css';
 @import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
 
 @import '../styles/_vars.scss';
 
@@ -44,3 +45,19 @@
     right: 0;
     left: auto;
 }
+
+// /. navigation
+
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: $gold-color;
+}
+
+// /. pagination

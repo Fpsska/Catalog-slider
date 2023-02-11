@@ -4,6 +4,9 @@ const plusButtons = document.querySelectorAll('.counter__button_plus');
 // /. variables
 
 function increaseCount(targetCount) {
+    if (targetCount >= 999) {
+        return targetCount;
+    }
     return ++targetCount;
 }
 

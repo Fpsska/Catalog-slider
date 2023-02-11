@@ -111,7 +111,7 @@ body {
 
     &__preview {
         position: relative;
-        background-color: #F6F8FB;
+        background-color: $white-color;
         border-radius: 5px 5px 0 0;
         flex: 0 0 334px;
         width: 100%;
@@ -249,9 +249,11 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 30px;
+        height: 30px;
+        flex-shrink: 0;
 
         svg {
-            transition: all .3s ease-in-out;
             fill: #8D9295;
             transform: scale(1);
         }
@@ -260,7 +262,7 @@ body {
     &__button_minus {
 
         &:active svg {
-            fill: red;
+            fill: #f003;
             transform: scale(1.05);
         }
     }
@@ -269,7 +271,7 @@ body {
         stroke: #8D9295;
 
         &:active svg {
-            stroke: green;
+            stroke: #3f0;
             transform: scale(1.05);
         }
     }
@@ -278,6 +280,8 @@ body {
         font-size: 14px;
         color: #4C4E50;
         margin: 0 5px;
+        width: 20px;
+        text-align: center;
     }
 }
 

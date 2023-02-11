@@ -247,6 +247,29 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+
+        svg {
+            transition: all .3s ease-in-out;
+            fill: #8D9295;
+            transform: scale(1);
+        }
+    }
+
+    &__button_minus {
+
+        &:active svg {
+            fill: red;
+            transform: scale(1.05);
+        }
+    }
+
+    &__button_plus {
+        stroke: #8D9295;
+
+        &:active svg {
+            stroke: green;
+            transform: scale(1.05);
+        }
     }
 
     &__number {

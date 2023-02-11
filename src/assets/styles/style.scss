@@ -19,28 +19,22 @@ body {
 
 .container {
     max-width: 1436px; // 1396 + 20px * 2
-    padding: 0 20px;
+    padding: 0 20px !important;
     margin: 0 auto;
-
-    display: flex;
-    flex-direction: column;
 }
 
 // 86px
 
 .container-huge {
-    position: relative;
     @extend .container;
-    max-width: 1660px; // 1568px + 46px * 2
-    padding: 0 46px;
+    max-width: 1568px;
+    padding: 0 !important;
 }
 
 // /. general-styles
 
 .products {
     &__wrapper {
-        // display: flex;
-        // flex-direction: column;
         padding: 80px 0 40px 0;
     }
 
@@ -52,6 +46,10 @@ body {
                 margin: 0 25px 0 0;
             }
         }
+    }
+
+    &__slider-wrapper {
+        position: relative;
     }
 }
 

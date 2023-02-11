@@ -1,3 +1,14 @@
+@media screen and (max-width: 1568px) {
+
+    .swiper-button-prev-products {
+        margin-left: 15px;
+    }
+
+    .swiper-button-next-products {
+        margin-right: 15px;
+    }
+}
+
 @media screen and (max-width: 675px) {
     .products__categories-list {
         flex-direction: column;
@@ -28,5 +39,10 @@
 @media screen and (max-width: 320px) {
     .product-card__counter {
         display: none;
+    }
+
+    .swiper-button-prev-products,
+    .swiper-button-next-products {
+        display: none !important;
     }
 }

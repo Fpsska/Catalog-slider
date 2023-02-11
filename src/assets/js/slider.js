@@ -7,6 +7,11 @@ import '../libs/swiper.scss';
 const productsSlider = new Swiper('.products-slider', {
     slidesPerView: 4,
     spaceBetween: 20,
+    modules: [Navigation],
+    navigation: {
+        nextEl: '.swiper-button-next-products',
+        prevEl: '.swiper-button-prev-products'
+    },
     breakpoints: {
         320: {
             slidesPerView: 1.1

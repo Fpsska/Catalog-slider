@@ -156,6 +156,17 @@ body {
         }
     }
 
+    &__tag {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: auto;
+        margin: 20px;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+    }
+
     &__information {
         padding: 10px 25px 25px 25px;
         background-color: $white-color;
@@ -174,7 +185,7 @@ body {
 
     &__price {
         justify-content: center;
-        margin: 10px 0 14px 0;
+        margin: 4px 0 10px 0;
     }
 
     &__confirmation {
@@ -242,7 +253,7 @@ body {
     background-color: transparent;
     border-radius: 5px;
     border: 1px solid #ECF0F4;
-    padding: 10px 14px;
+    padding: 10px 8px;
 
     &__button {
         background-color: transparent;
@@ -251,6 +262,7 @@ body {
         justify-content: center;
         width: 30px;
         height: 30px;
+        overflow: hidden;
         flex-shrink: 0;
 
         svg {
@@ -279,12 +291,13 @@ body {
     &__number {
         font-size: 14px;
         color: #4C4E50;
-        margin: 0 5px;
+        margin: 0 2px;
         width: 20px;
         text-align: center;
     }
 }
 
 // /. counter
+
 
 // /. products

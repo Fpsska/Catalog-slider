@@ -48,6 +48,9 @@
 
 // /. navigation
 
+.swiper-pagination {
+    bottom: 12px !important;
+}
 
 .swiper-pagination-bullet {
     width: 20px;
@@ -55,6 +58,8 @@
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 2px;
     border: none;
+    top: 0;
+    bottom: 10px;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {

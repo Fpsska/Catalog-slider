@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
-
 @import '../libs/normalize.css';
 @import './_reset.scss';
 @import './_vars.scss';
+@import './fonts.scss';
 
 /* /. imports */
 
@@ -20,7 +19,7 @@ body {
 }
 
 .container {
-    max-width: 1436px; // 1396 + 20px * 2
+    max-width: 1436px; // 1396px + 20px * 2
     padding: 0 20px !important;
     margin: 0 auto;
 }

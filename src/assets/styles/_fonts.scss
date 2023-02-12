@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Rubik";
+    src:
+        local('Rubik-Regular'),
+        local('Rubik Regular'),
+        url('../fonts/Rubik-Regular.woff2'),
+        url('../fonts/Rubik-Regular.woff'),
+        url('../fonts/Rubik-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src:
+        local('Rubik-Medium'),
+        local('Rubik Medium'),
+        url('../fonts/Rubik-Medium.woff2'),
+        url('../fonts/Rubik-Medium.woff'),
+        url('../fonts/Rubik-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Rubik";
+    src:
+        local('Rubik-Bold'),
+        local('Rubik Bold'),
+        url('../fonts/Rubik-Bold.woff2'),
+        url('../fonts/Rubik-Bold.woff'),
+        url('../fonts/Rubik-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+// /. Rubik font

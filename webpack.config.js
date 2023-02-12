@@ -63,7 +63,7 @@ module.exports = {
                 }
             },
             {
-                test: /\.(woff|woff2)$/i, // alternative /\.woff2?$/i
+                test: /\.(woff|woff2|ttf)$/i, // alternative /\.woff2?$/i
                 type: 'asset/resource',
                 generator: {
                     // create custom subfolder when building (ignore output assetModuleFilename option)

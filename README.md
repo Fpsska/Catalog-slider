@@ -4,4 +4,4 @@
 
 #
 
-### `Watch demo` _[ProfKit-Task](https://fpsska.github.io/ProfKit-Task/)_
+### `Watch demo` _[Catalog-slider](https://fpsska.github.io/Catalog-slider/)_
